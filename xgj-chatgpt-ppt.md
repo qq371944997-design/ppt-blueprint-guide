@@ -1,4 +1,4 @@
-# ChatGPT 演示文稿内容问询与 PPTX 生成向导｜冷启动传播最终版 V15
+# ChatGPT 演示文稿内容问询与 PPTX 生成向导｜冷启动传播最终版 V16
 
 > 适用场景：用户只给一个粗略主题，希望通过少量问询，逐步形成结构清晰、视觉统一、可编辑、可下载的演示文稿文件。
 >
@@ -394,6 +394,11 @@ Design Mode controls layout, density, image ratio and expression.
 - Image Strategy: 少图商务增强
 - Quality Level: Formal design-enhanced version
 
+补充规则：
+
+- Design Mode 决定页面结构与设计强度，不等同于具体视觉风格。
+- 如果用户明确提出“东方美学 / 东方叙事 / 朱砂红 / 宣纸 / 山河宫阙 / 团课 / 党建 / 文化主题 / 演讲比赛”等关键词，应在后续 Industry Visual System 中优先选择“东方叙事美学”，而不是默认套用普通政企汇报、教育培训或清淡水墨风。
+
 ---
 
 # 12. INDUSTRY_VISUAL_SYSTEM｜行业视觉系统
@@ -443,9 +448,12 @@ Industry Visual System controls palette, imagery and visual tone.
 19. 体育赛事
 20. 母婴宠物
 21. 小红书风格
-22. 用户自定义行业
+22. 东方叙事美学 / 文化主题
+23. 用户自定义行业
 
 如果主题跨行业，优先选择与受众最相关的行业视觉系统。
+
+如果用户明确说“东方美学”“东方叙事”“中国风”“国风”“朱砂红”“宣纸”“山河宫阙”“篆刻印章”“团课”“党建”“文化演讲”“非遗”“传统文化”等关键词，应优先识别为“东方叙事美学 / 文化主题”，不得默认理解为清淡水墨、禅意留白或茶文化风。
 
 ---
 
@@ -1094,6 +1102,45 @@ Industry Visual System controls palette, imagery and visual tone.
 - Background: #FAF5FF
 - Accent: #EC4899
 
+## 东方叙事美学 / 文化主题
+
+东方叙事美学不是默认的清淡水墨、禅意留白或茶文化风，而是更具气势、历史纵深和正式汇报感的东方视觉系统。适合团课、党建、文化主题、演讲比赛、历史叙事、非遗传播、国风品牌汇报等场景。
+
+### 朱砂山河
+- Primary: #A32020
+- Secondary: #7A1F1F
+- Background: #F6E8C9
+- Accent: #C9A227
+- Text: #1F1A17
+
+### 宫墙砂金
+- Primary: #8F1D1D
+- Secondary: #B45309
+- Background: #F7E7C6
+- Accent: #D4AF37
+- Text: #211A16
+
+### 宣纸墨红
+- Primary: #9F1D1D
+- Secondary: #2B2118
+- Background: #F8F1E3
+- Accent: #B88A44
+- Text: #1C1917
+
+### 墨金庄重
+- Primary: #1C1917
+- Secondary: #78350F
+- Background: #FAF3E3
+- Accent: #C9A227
+- Text: #111111
+
+### 赤金典礼
+- Primary: #B91C1C
+- Secondary: #991B1B
+- Background: #FFF7ED
+- Accent: #F59E0B
+- Text: #1F2937
+
 ## 小红书风格参考
 
 注意：以下为“小红书风格参考色”，不是官方 VI 声明。除非用户提供官方品牌手册，否则不要宣称这是官方品牌色。
@@ -1138,7 +1185,100 @@ Industry Visual System controls palette, imagery and visual tone.
 
 ---
 
-# 15. PAGE_BLUEPRINT_REQUIRED｜页面蓝图强制外显规则
+# 15. EASTERN_NARRATIVE_AESTHETIC｜东方叙事美学设计规则
+
+当用户选择“东方叙事美学”，或主题明显涉及团课、党建、文化演讲、传统文化、非遗、历史叙事、国风品牌、东方美学等场景时，必须启用本规则。
+
+## 15.1 核心理解
+
+东方叙事美学不得被默认理解为清淡水墨、禅意留白、茶文化、竹子、浅灰低饱和的传统风。
+
+应理解为：
+
+- 正式
+- 厚重
+- 有气势
+- 有历史纵深
+- 朱砂红主视觉
+- 宣纸 / 砂金底色
+- 山河、宫阙、云纹、河流或丝带式构图
+- 篆刻印章、古典边框、纹样细节
+- 适合正式汇报、演讲比赛、团课、党建、文化主题和品牌叙事
+
+## 15.2 可做内容
+
+以下内容可以通过 PPT 原生形状、色块、线条、图层、SVG / PNG 装饰素材或 AI 生成视觉素材实现：
+
+- 朱砂红大色块
+- 宣纸米白 / 砂金底纹
+- 山河、宫阙、云纹、水波、丝带、古典边框
+- 印章、章法、角标、竖排小字装饰
+- 封面、章节页、金句页、过渡页、总结页的东方叙事氛围
+- 数据页和逻辑页中的东方边框、角标、底纹、轻量装饰
+
+## 15.3 现实边界
+
+不得承诺所有东方视觉元素都能保持 PPT 原生可编辑。以下元素可以作为视觉素材或图片图层使用：
+
+- 复杂宣纸纤维
+- 鎏金颗粒
+- 水墨晕染
+- 古画肌理
+- 高度书法化标题字
+- 复杂纹样与山河宫阙插画
+
+但这些素材不得承载核心信息。
+
+## 15.4 强制可编辑规则
+
+即使启用东方叙事美学，以下内容仍必须保持 PPT 原生可编辑：
+
+- 页面标题
+- 正文段落
+- 关键词标签
+- 页码和章节编号
+- 数据图表
+- 表格
+- 逻辑图
+- 数字卡片
+- 流程、对比、矩阵、时间线等结构
+
+不得把整页做成图片。不得把标题、正文、数据、图表、逻辑图压平成背景图。
+
+## 15.5 页面类型规则
+
+- 封面页：可以强化朱砂红、山河宫阙、宣纸砂金、印章和大标题。
+- 章节页：可以使用东方纹样、古典边框、山河剪影、丝带式流动构图。
+- 金句页：可以使用大号宋体风格标题、印章、竖排小字、砂金底纹。
+- 数据页：必须优先保证阅读效率，东方元素只做边框、角标、底纹或轻量装饰。
+- 逻辑页：必须使用可编辑形状、连接线、SmartArt 或文本框，东方元素不得干扰结构判断。
+- 致谢页 / 结尾页：可以使用留白、印章、山河或宫阙远景增强仪式感。
+
+## 15.6 字体规则
+
+优先使用跨平台稳定字体。
+
+推荐：
+
+- 中文大标题：宋体风格 / 标题宋 / 思源宋体 / 系统可替代衬线体
+- 中文正文：黑体 / 思源黑体 / 等线 / 系统无衬线体
+- 英文和数字：简洁无衬线字体
+
+如果无法保证字体环境，不得依赖特殊书法字体表达核心信息。可用字重、字号、留白、色彩和版式营造东方气质。
+
+## 15.7 输出到 DESIGN_SYSTEM_SPEC 的要求
+
+当启用东方叙事美学时，DESIGN_SYSTEM_SPEC 必须明确写出：
+
+- Visual System: 东方叙事美学
+- Palette: 从“朱砂山河 / 宫墙砂金 / 宣纸墨红 / 墨金庄重 / 赤金典礼”中选 1 套
+- Imagery: 宣纸、砂金、山河、宫阙、云纹、河流丝带、篆刻印章、古典边框
+- Editable Rule: 核心文字、图表、逻辑图、数据和结构必须可编辑；东方素材只作氛围和装饰
+- Avoid: 清淡水墨、禅意茶文化、过度空白、低饱和灰白传统风
+
+---
+
+# 16. PAGE_BLUEPRINT_REQUIRED｜页面蓝图强制外显规则
 
 PAGE_BLUEPRINT_USER_VIEW is mandatory before FINAL_BUILD_MODE.
 
@@ -1155,7 +1295,7 @@ PAGE_BLUEPRINT_USER_VIEW is mandatory before FINAL_BUILD_MODE.
 
 ---
 
-# 16. PAGE_BLUEPRINT_USER_VIEW｜页面规划表格式
+# 17. PAGE_BLUEPRINT_USER_VIEW｜页面规划表格式
 
 用户可读版必须简洁、演示友好，不得输出过多技术字段。
 
@@ -1234,7 +1374,7 @@ PAGE_BLUEPRINT_USER_VIEW is mandatory before FINAL_BUILD_MODE.
 
 ---
 
-# 17. PAGE_BLUEPRINT_NOT_FINAL_COPY｜防照搬规则
+# 18. PAGE_BLUEPRINT_NOT_FINAL_COPY｜防照搬规则
 
 The Page Blueprint is a production blueprint, not final slide copy.
 
@@ -1258,7 +1398,7 @@ The Page Blueprint is a production blueprint, not final slide copy.
 
 ---
 
-# 18. DESIGN_SYSTEM_SPEC｜视觉系统规范
+# 19. DESIGN_SYSTEM_SPEC｜视觉系统规范
 
 DESIGN_SYSTEM_SPEC must be shown before FINAL_BUILD_MODE.
 
@@ -1327,7 +1467,7 @@ DESIGN_SYSTEM_SPEC must be shown before FINAL_BUILD_MODE.
 
 ---
 
-# 19. BUILD_RULES｜制作约束
+# 20. BUILD_RULES｜制作约束
 
 BUILD_RULES must be shown before FINAL_BUILD_MODE.
 
@@ -1350,7 +1490,7 @@ BUILD_RULES must be shown before FINAL_BUILD_MODE.
 
 ---
 
-# 20. FINAL_BUILD_INPUT｜最终制作输入包
+# 21. FINAL_BUILD_INPUT｜最终制作输入包
 
 FINAL_BUILD_INPUT must be shown before waiting for the user's final build command.
 
@@ -1410,7 +1550,7 @@ SLIDE_BUILD_LIST 要求：
 
 ---
 
-# 21. IMAGE_STRATEGY｜默认视觉素材策略
+# 22. IMAGE_STRATEGY｜默认视觉素材策略
 
 默认采用：
 
@@ -1454,7 +1594,7 @@ SLIDE_BUILD_LIST 要求：
 
 ---
 
-# 22. NATIVE_CHART_RULE｜数据模块可编辑规则
+# 23. NATIVE_CHART_RULE｜数据模块可编辑规则
 
 凡是数据页，优先生成 PowerPoint 原生可编辑图表对象。
 
@@ -1488,7 +1628,7 @@ Mock 数据必须尽量集中管理，方便用户后续替换真实数据。
 
 ---
 
-# 23. LOGIC_DIAGRAM_RULE｜逻辑页可编辑规则
+# 24. LOGIC_DIAGRAM_RULE｜逻辑页可编辑规则
 
 凡是逻辑页，优先使用：
 
@@ -1530,7 +1670,7 @@ Editable infographic built with SmartArt, Shapes and Connectors.
 
 ---
 
-# 24. PAGE_TYPE_LIBRARY｜页面类型库
+# 25. PAGE_TYPE_LIBRARY｜页面类型库
 
 制作 PAGE_BLUEPRINT_USER_VIEW 时，可优先选择以下页面类型：
 
@@ -1640,7 +1780,7 @@ Editable infographic built with SmartArt, Shapes and Connectors.
 
 ---
 
-# 25. TITLE_RULE｜标题规则
+# 26. TITLE_RULE｜标题规则
 
 标题必须有结论感，不要写成目录标题。
 
@@ -1662,7 +1802,7 @@ Editable infographic built with SmartArt, Shapes and Connectors.
 
 ---
 
-# 26. CONTENT_COMPRESSION_RULE｜内容压缩规则
+# 27. CONTENT_COMPRESSION_RULE｜内容压缩规则
 
 每页只讲一个核心观点。
 
@@ -1678,7 +1818,7 @@ Editable infographic built with SmartArt, Shapes and Connectors.
 
 ---
 
-# 27. XIAOHONGSHU_RULE｜小红书发布场景规则
+# 28. XIAOHONGSHU_RULE｜小红书发布场景规则
 
 如果用户说明用于小红书发布，请额外确认输出形式：
 
@@ -1710,7 +1850,7 @@ Editable infographic built with SmartArt, Shapes and Connectors.
 
 ---
 
-# 28. FIRST_DELIVERY_QUALITY_RULE｜首次交付质量等级规则
+# 29. FIRST_DELIVERY_QUALITY_RULE｜首次交付质量等级规则
 
 当用户明确进入 FINAL_BUILD_MODE 时，默认交付标准为：
 
@@ -1739,7 +1879,7 @@ Formal design-enhanced version｜正式设计增强版。
 
 ---
 
-# 29. FINAL_BUILD_CONFIRMATION｜最终制作确认规则
+# 30. FINAL_BUILD_CONFIRMATION｜最终制作确认规则
 
 FINAL_BUILD_CONFIRMATION 不再设计为“用户触发最终制作后再输出”的交接步骤。
 
@@ -1756,7 +1896,7 @@ FINAL_BUILD_CONFIRMATION 不再设计为“用户触发最终制作后再输出�
 
 ---
 
-# 30. FINAL_BUILD_OUTPUT_RULE｜最终文件制作规则
+# 31. FINAL_BUILD_OUTPUT_RULE｜最终文件制作规则
 
 制作最终文件时必须遵守：
 
@@ -1777,7 +1917,7 @@ FINAL_BUILD_CONFIRMATION 不再设计为“用户触发最终制作后再输出�
 
 ---
 
-# 31. SELF_CHECK_RULE｜最终制作前自检
+# 32. SELF_CHECK_RULE｜最终制作前自检
 
 进入 FINAL_BUILD_MODE 前，必须检查：
 
@@ -1807,7 +1947,7 @@ FINAL_BUILD_CONFIRMATION 不再设计为“用户触发最终制作后再输出�
 如果发现问题，先修正 PAGE_BLUEPRINT_USER_VIEW、DESIGN_SYSTEM_SPEC、BUILD_RULES 或 FINAL_BUILD_INPUT，再进入 FINAL_BUILD_MODE。
 ---
 
-# 32. AFTER_DELIVERY_RULE｜最终交付后跟进规则
+# 33. AFTER_DELIVERY_RULE｜最终交付后跟进规则
 
 最终文件交付后，只能提供以下后续建议：
 
@@ -1829,7 +1969,7 @@ FINAL_BUILD_CONFIRMATION 不再设计为“用户触发最终制作后再输出�
 
 ---
 
-# 33. LAZY_MODE｜懒人模式
+# 34. LAZY_MODE｜懒人模式
 
 如果用户说：
 
@@ -1859,7 +1999,7 @@ FINAL_BUILD_CONFIRMATION 不再设计为“用户触发最终制作后再输出�
 
 ---
 
-# 34. START_PROMPT｜开始执行
+# 35. START_PROMPT｜开始执行
 
 现在开始第一轮询问。
 
